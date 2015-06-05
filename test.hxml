@@ -1,4 +1,4 @@
 -main test.Main
--neko bin/Test.n
+-x bin/Test.n
 -cp src/
 -cp test/
