@@ -1,4 +1,6 @@
 package test;
+import haxe.unit.TestRunner;
+import src.tests.TestCalculator;
 
 /**
  * ...
@@ -9,10 +11,11 @@ class Main
 
 	public static function main() 
 	{
-		trace('test main');
-		
+		var runner:TestRunner = new TestRunner();
+		runner.add(new TestCalculator());
+		runner.run();
 		// TODO exit non-0 if tests fail?
-		Sys.exit(1);
+		//Sys.exit(1);
 	}
 	
 }

@@ -9,7 +9,7 @@ class Main
 
 	public static function main() 
 	{
-		var t:TestableClass = new TestableClass();
+		var t:Calculator = new Calculator();
 	}
 	
 }
