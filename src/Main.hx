@@ -9,7 +9,7 @@ class Main
 
 	public static function main() 
 	{
-		trace('entry point');
+		var t:TestableClass = new TestableClass();
 	}
 	
 }
