@@ -23,7 +23,7 @@ class TestCalculator extends TestCase
 		assertEquals(5, _mock.sub(_op1, _op2));
 	}
 	public function testMul() {
-		assertEquals(51, _mock.mul(_op1, _op2));
+		assertEquals(50, _mock.mul(_op1, _op2));
 	}
 	public function testDiv() {
 		assertEquals(2.0, _mock.div(_op1, _op2));
