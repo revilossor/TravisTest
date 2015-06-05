@@ -17,7 +17,7 @@ class TestCalculator extends TestCase
 		_mock = new Calculator();
 	}
 	public function testAdd() {
-		assertEquals(15, _mock.add(_op1, _op2));
+		assertEquals(9999999, _mock.add(_op1, _op2));
 	}
 	public function testSub() {
 		assertEquals(5, _mock.sub(_op1, _op2));
