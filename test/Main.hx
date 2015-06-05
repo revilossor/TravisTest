@@ -12,6 +12,7 @@ class Main
 		trace('test main');
 		
 		// TODO exit non-0 if tests fail?
+		Sys.exit(1);
 	}
 	
 }
