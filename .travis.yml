@@ -2,3 +2,5 @@ language: haxe
 hxml:
   - build.hxml
   - test.hxml
+notifications:
+  slack: urbanzoostudios:dqk0hZAxefFhAS2PSJPrs9Ga
