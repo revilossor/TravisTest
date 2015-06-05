@@ -13,9 +13,8 @@ class Main
 	{
 		var runner:TestRunner = new TestRunner();
 		runner.add(new TestCalculator());
-		runner.run();
-		// TODO exit non-0 if tests fail?
-		//Sys.exit(1);
+		var allPass = runner.run();
+		Sys.exit(allPass ? 0 : 1 );
 	}
 	
 }
