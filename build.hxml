@@ -1,0 +1,3 @@
+-main src.Main
+-neko bin/App.n
+-cp src/
