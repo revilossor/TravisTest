@@ -1,6 +1,6 @@
 package test;
 import haxe.unit.TestRunner;
-import src.tests.TestCalculator;
+import test.tests.TestCalculator;
 
 /**
  * ...

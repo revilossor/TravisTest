@@ -1,4 +1,4 @@
-package src.tests;
+package test.tests;
 import haxe.unit.TestCase;
 import src.Calculator;
 
