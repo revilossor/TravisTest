@@ -1,4 +1,4 @@
 -main test.Main
--x bin/Test.n
+-x bin/Test
 -cp src/
 -cp test/
